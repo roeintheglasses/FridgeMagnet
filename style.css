@@ -13,13 +13,13 @@ body {
 	filter: invert(100%);
 	position: relative;
 	display: flexbox;
-	margin-top: %;
 }
 
 h1 {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 800;
+	font-size: 350%;
 	margin-bottom: 3%;
 
 }
@@ -116,4 +116,19 @@ input {
 
 .delete {
 	display: none;
+}
+
+
+footer {
+	color: white;
+	align-items: center;
+	font-family: monospace;
+}
+
+a {
+	color: rgb(240, 255, 105);
+}
+
+a:hover {
+	color: hotpink;
 }
